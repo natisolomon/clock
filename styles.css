@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(162, 22, 255), rgb(0, 4, 66));
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(222, 200, 247);
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(rgb(162, 22, 255), rgb(16, 24, 136));
+    backdrop-filter: blur(10px); /* Blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(rgb(162, 22, 255), rgb(16, 24, 136));
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: linear-gradient(rgb(101, 26, 151), rgb(27, 38, 190));
+}
